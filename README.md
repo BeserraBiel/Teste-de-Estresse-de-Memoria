@@ -1,5 +1,7 @@
-#Teste de Estresse de Memória (em C)
-Um programa simples e eficiente desenvolvido em C para testar os limites de alocação de memória RAM e observar o comportamento do sistema operacional sob carga máxima.
+# Teste de Estresse de Memória (em C)
+## Um programa simples e eficiente desenvolvido em C para testar os limites de alocação de memória RAM e observar o comportamento do sistema operacional sob carga máxima.
+
+
 
 Como o código funciona por debaixo dos panos:
 O "Coração" do Teste: O programa utiliza um loop infinito (while(1)) que roda continuamente. A cada ciclo, ele aciona a função malloc(1024 * 1024) para solicitar ao sistema operacional exatamente 1 Megabyte (MB) de memória.
